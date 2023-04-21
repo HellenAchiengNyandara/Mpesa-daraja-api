@@ -44,5 +44,3 @@ foreach($rows as $row){
         file_put_contents('error_log', "Failed to insert Records", FILE_APPEND);
     }
 }
-
-?>
